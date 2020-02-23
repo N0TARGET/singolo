@@ -5,17 +5,18 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Singolo</title>
 </head>
 <body>
 <header>
     <div class="wrapper">
         <div class="header__logo">
-            <span class="logo_text">SINGOLO<span class="logo_text_colored">*</span></span>
+            <h1>SINGOLO<span class="text_colored">*</span></h1>
         </div>
         <nav class="navigation__container">
             <ul class="navigation__menu">
-                <li><a class="navigation_link navigation_link_selected" href="#">Home</a></li>
+                <li><a class="navigation_link  text_colored" href="#">HOME</a></li>
                 <li><a class="navigation_link" href="#">SERVICES</a></li>
                 <li><a class="navigation_link" href="#">PORTFOLIO</a></li>
                 <li><a class="navigation_link" href="#">ABOUT</a></li>
@@ -31,23 +32,26 @@
                 <img class="iphone vertical_iphone" src="assets/iPhone%20Vertical.png" alt="iphone" height="483" width="240"/>
                 <img class="iphone horizontal_iphone" src="assets/iPhone%20Horizontal.png" alt="iphone" height="240" width="484"/>
             </div>
-            <div class="chevs">
-                <img class="chev left_chev" src="assets/chev.png" alt="chev" height="27" width="16"/>
-                <img class="chev right_chev" src="assets/chev.png" alt="chev" height="27" width="16"/>
+            <div class="slider__chevs">
+                <div class="left-chev">
+                    <img class="chev left_chev" src="assets/chev.png" alt="chev" height="27" width="16"/>
+                </div>
+                <div class="right-chev">
+                    <img class="chev right_chev" src="assets/chev.png" alt="chev" height="27" width="16"/>
+                </div>
             </div>
         </section>
         <section class="services">
-            <h1>Our Services</h1>
-            <p>
+            <h2>Our Services</h2>
+            <p class="services_paragraph">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
                 Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </p>
-            <div class="layout_3_columns">
-                <div class="pen__service">
+            <div class="container layout_3_columns">
+                <div class="service pen__service">
                     <div class="service_logo">
-                        <img class="ellipse" src="assets/Ellipse.png" alt="ellipse" height="59" width="59"/>
-                        <img class="pen" src="assets/pen.png" alt="pen" height="32" width="32"/>
+                        <img class="service_image pen" src="assets/Pen.png" alt="pen" height="59" width="59"/>
                     </div>
                     <div class="service_description">
                         <h3>Custom Design</h3>
@@ -57,10 +61,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="bulb__service">
+                <div class="service bulb__service">
                     <div class="service_logo">
-                        <img class="ellipse" src="assets/Ellipse.png" alt="ellipse" height="59" width="59"/>
-                        <img class="bulb" src="assets/bulb.png" alt="bulb" height="32" width="22"/>
+                        <img class="service_image bulb" src="assets/Bulb.png" alt="bulb" height="59" width="59"/>
                     </div>
                     <div class="service_description">
                         <h3>Inovative Ideas</h3>
@@ -70,10 +73,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="heart__service">
+                <div class="service heart__service">
                     <div class="service_logo">
-                        <img class="ellipse" src="assets/Ellipse.png" alt="ellipse" height="59" width="59"/>
-                        <img class="heart" src="assets/heart.png" alt="heart" height="28" width="32"/>
+                        <img class="service_image heart" src="assets/Heart.png" alt="heart" height="59" width="59"/>
                     </div>
                     <div class="service_description">
                         <h3>Love Is The Answer</h3>
@@ -83,10 +85,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="phone__service">
+                <div class="service phone__service">
                     <div class="service_logo">
-                        <img class="ellipse" src="assets/Ellipse.png" alt="ellipse" height="59" width="59"/>
-                        <img src="assets/phone.png" alt="ellipse" class="phone">
+                        <img class="service_image phone" src="assets/Phone.png" alt="ellipse" height="59" width="59">
                     </div>
                     <div class="service_description">
                         <h3>Responsive Layout</h3>
@@ -97,10 +98,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="bubble__service">
+                <div class="service bubble__service">
                     <div class="service_logo">
-                        <img class="ellipse" src="assets/Ellipse.png" alt="ellipse" height="59" width="59"/>
-                        <img class="bubble" src="assets/bubble.png" alt="bubble" height="28" width="32"/>
+                        <img class="service_image bubble" src="assets/Bubble.png" alt="bubble" height="59" width="59"/>
                     </div>
                     <div class="service_description">
                         <h3>24 / 7 Support</h3>
@@ -110,10 +110,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="star__service">
+                <div class="service star__service">
                     <div class="service_logo">
-                        <img class="ellipse" src="assets/Ellipse.png" alt="ellipse" height="59" width="59"/>
-                        <img class="star" src="assets/star.png" alt="start" height="31" width="32"/>
+                        <img class="service_image star" src="assets/Star.png" alt="start" height="59" width="59"/>
                     </div>
                     <div class="service_description">
                         <h3>Feel Like A Star</h3>
