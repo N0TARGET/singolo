@@ -18,14 +18,14 @@ header .wrapper {
     border-bottom: 6px #323746 solid;
 }
 
-main .wrapper .slider {
+main .slider {
     height: 594px;
     background-color: #f06c64;
     border-bottom: 6px #ea676b solid;
 }
 
-main .wrapper .services {
-    height: 494px;
+main .services {
+    height: 495px;
     background-color: #f2f2f2;
     border-bottom: 6px #ffffff solid;
 }
@@ -34,8 +34,7 @@ main .wrapper .services {
     color: #f06c64;
 }
 
-h1,
-h1 .text_colored {
+h1 {
     font-size: 25px;
     font-weight: 900;
     letter-spacing: 0;
@@ -49,22 +48,23 @@ p,
 
 ul {
   position: relative;
-  top: 10px;
-  left: 597px;
+  top: 7px;
+  left: 594px;
 }
 
 li {
   margin: 15px;
 }
 
-li a {
+a {
     font-size: 11px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .header__logo {
     position: relative;
-    left: 40px;
+    left: 38px;
     top: 30px;
 }
 
@@ -81,9 +81,9 @@ li a {
 }
 
 .services_paragraph {
-    margin-top: 20px;
+    margin-top: 18px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 1.6;
 }
 
@@ -127,10 +127,11 @@ li a {
 
 h2 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .container {
+    margin-top: 30px;
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -155,6 +156,7 @@ h2 {
 }
 
 .services_paragraph {
+    margin-top: 20px;
     text-align: justify;
 }
 
@@ -165,5 +167,6 @@ h2 {
 
 .services {
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 41px;
+    padding-top: 59px;
 }
