@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', Verdana, sans-serif;
+}
+
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    height: 89px;
+    background-color: #2d303a;
+    border-bottom: 6px #323746 solid;
+}
+
+main .slider {
+    position: relative;
+    height: 594px;
+    background-color: #f06c64;
+    border-bottom: 6px #ea676b solid;
+}
+
+main .services {
+    height: 495px;
+    background-color: #f2f2f2;
+    border-bottom: 6px #ffffff solid;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.services_paragraph p {
+    font-style: normal;
+}
+
+ul {
+    position: relative;
+    top: 7px;
+    left: 593px;
+}
+
+li {
+    margin: 13px;
+}
+
+a {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header__logo {
+    position: relative;
+    left: 38px;
+    top: 30px;
+}
+
+.navigation__menu li {
+    display: inline;
+}
+
+
+.vertical_iphone {
+    position: absolute;
+    left: 112px;
+    top: 53px;
+}
+
+.horizontal_iphone {
+    position: absolute;
+    left: 425px;
+    top: 174px;
+}
+
+.left_chev {
+    position: absolute;
+    top: 281px;
+    right: 40px;
+
+}
+
+.right_chev {
+    position: absolute;
+    left: 42px;
+    top: 281px;
+    transform: rotate(180deg);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 29px;
+    margin-left: 1px;
+}
+
+.service_logo {
+    font-size: 18px;
+}
+
+.services {
+    padding-top: 60px;
+}
+
+.services_paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.service {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.service_description h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: justify;
+    color: #666d89;
+}
+
+.service_description {
+    margin-left: 25px;
+}
+
+.service_description p {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+}
+
+.services {
+    padding-left: 40px;
+    padding-right: 41px;
+    padding-top: 59px;
+}
+
+p,
+.services h2,
+.services h3 {
+    color: #666d89;
+}
+
+.services_paragraph,
+.services_paragraph p {
+    color: #767e9e;
+}
+
+a:hover {
+    color: #f06c64;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-colored {
+    color: #f06c64;
+}
+
+.chev:hover {
+    opacity: 70%;
+}
