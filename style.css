@@ -19,6 +19,7 @@ header .wrapper {
 }
 
 main .slider {
+    position: relative;
     height: 594px;
     background-color: #f06c64;
     border-bottom: 6px #ea676b solid;
@@ -30,35 +31,29 @@ main .services {
     border-bottom: 6px #ffffff solid;
 }
 
-.text_colored {
-    color: #f06c64;
-}
-
 h1 {
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 400;
     letter-spacing: 0;
 }
 
-p,
-.services h2,
-.services h3 {
-    color: #666d89;
+.services_paragraph p {
+    font-style: normal;
 }
 
 ul {
   position: relative;
   top: 7px;
-  left: 594px;
+  left: 593px;
 }
 
 li {
-  margin: 15px;
+  margin: 13px;
 }
 
 a {
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 400;
     text-decoration: none;
 }
 
@@ -72,20 +67,7 @@ a {
     display: inline;
 }
 
-.slider {
-    position: relative;
-}
 
-.services {
-    padding-top: 60px;
-}
-
-.services_paragraph {
-    margin-top: 18px;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.6;
-}
 
 .vertical_iphone {
     position: absolute;
@@ -113,28 +95,32 @@ a {
     transform: rotate(180deg);
 }
 
-.service_description h3 {
-    font-size: 18px;
-}
-
-.service_description p {
-    font-size: 12px;
-}
-
-.service_logo  {
-    font-size: 18px;
-}
-
 h2 {
     font-size: 30px;
     font-weight: 900;
 }
 
 .container {
-    margin-top: 30px;
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.service_logo  {
+    font-size: 18px;
+}
+
+.services {
+    padding-top: 60px;
+}
+
+.services_paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 .service {
@@ -143,30 +129,56 @@ h2 {
     margin-bottom: 10px;
 }
 
+.service_description h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: justify;
+    color: #666d89;
+}
+
 .service_description {
     margin-left: 25px;
 }
 
 .service_description p {
+    margin-top: 8px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 22px;
-    margin-top: 8px;
     text-align: justify;
     letter-spacing: 0;
-}
-
-.services_paragraph {
-    margin-top: 20px;
-    text-align: justify;
-}
-
-.service_description h3 {
-    font-weight: 900;
-    line-height: 1;
 }
 
 .services {
     padding-left: 40px;
     padding-right: 41px;
     padding-top: 59px;
+}
+
+p,
+.services h2,
+.services h3 {
+    color: #666d89;
+}
+
+.services_paragraph,
+.services_paragraph p {
+    color: #767e9e;
+}
+
+a:hover {
+    color: #f06c64;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-colored {
+    color: #f06c64;
+}
+
+.chev:hover {
+    opacity: 70%;
 }
