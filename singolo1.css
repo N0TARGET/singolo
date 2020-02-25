@@ -8,175 +8,164 @@ body {
 }
 
 .wrapper {
-  max-width: 1020px;
+  box-sizing: border-box;
   margin: 0 auto;
+  max-width: 1020px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 header .wrapper {
-  height: 89px;
+  height: 95px;
   background-color: #2d303a;
   border-bottom: 6px #323746 solid;
 }
 
-main .slider {
-  position: relative;
-  height: 594px;
+main .wrapper {
+  height: 600px;
   background-color: #f06c64;
   border-bottom: 6px #ea676b solid;
 }
 
-main .services {
-  height: 495px;
+section .wrapper {
+  height: 500px;
   background-color: #f2f2f2;
   border-bottom: 6px #ffffff solid;
 }
 
-h1 {
-  font-size: 25px;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
-.services_paragraph p {
-  font-style: normal;
-}
-
-ul {
-  position: relative;
-  top: 7px;
-  left: 593px;
-}
-
-li {
-  margin: 13px;
-}
-
-a {
-  font-size: 12px;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.header__logo {
-  position: relative;
-  left: 38px;
-  top: 30px;
-}
-
-.navigation__menu li {
-  display: inline;
-}
-
-
-.vertical_iphone {
-  position: absolute;
-  left: 112px;
-  top: 53px;
-}
-
-.horizontal_iphone {
-  position: absolute;
-  left: 425px;
-  top: 174px;
-}
-
-.left_chev {
-  position: absolute;
-  top: 281px;
-  right: 40px;
-
-}
-
-.right_chev {
-  position: absolute;
-  left: 42px;
-  top: 281px;
-  transform: rotate(180deg);
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: 900;
-}
-
-.container {
+.layout_3_columns {
+  margin-top: 47px;
   display: grid;
-  grid-column-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 29px;
-  margin-left: 1px;
-}
-
-.service_logo {
-  font-size: 18px;
-}
-
-.services {
-  padding-top: 60px;
-}
-
-.services_paragraph {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.6;
-  text-align: justify;
+  grid-column-gap: 21px;
+  grid-row-gap: 33px;
+  /*justify-content: space-between;*/
 }
 
 .service {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 25fr 75fr;
 }
 
-.service_description h3 {
-  font-size: 18px;
+h2 {
+  padding-top: 68px;
+  font-size: 30px;
   font-weight: 900;
-  line-height: 1;
-  text-align: justify;
+  line-height: 18px;
+  color: #666d89;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 15px;
+  font-weight: 900;
   color: #666d89;
 }
 
 .service_description {
-  margin-left: 25px;
+  padding-left: 4px;
 }
 
 .service_description p {
-  margin-top: 8px;
+  padding-top: 11px;
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #767e9e;
+  text-align: justify;
+}
+
+.services_paragraph {
+  padding-top: 27px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #767e9e;
+  text-align: justify;
+}
+
+.layout_2_col {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.navigation__menu {
+  margin-top: 6px;
+  display: flex;
+}
+
+.navigation__menu li {
+  margin-left: 10px;
+  margin-right: 19px;
+}
+
+.navigation__menu li:last-child {
+  margin-right: 0;
+}
+
+.navigation__menu li a {
+  text-decoration: none;
   font-size: 12px;
   font-weight: 400;
-  font-style: normal;
-  line-height: 22px;
-  text-align: justify;
-  letter-spacing: 0;
 }
 
-.services {
-  padding-left: 40px;
-  padding-right: 41px;
-  padding-top: 59px;
+.logo {
+  color: white;
 }
 
-p,
-.services h2,
-.services h3 {
-  color: #666d89;
-}
-
-.services_paragraph,
-.services_paragraph p {
-  color: #767e9e;
-}
-
-a:hover {
+.logo-tail {
   color: #f06c64;
 }
 
-.text-white {
-  color: #ffffff;
+.first-elem {
+  list-style-type: none;
 }
 
-.text-colored {
+main .wrapper {
+  position: relative;
+}
+
+.horizontal_iphone {
+  position: absolute;
+  top: 174px;
+  left: 425px;
+}
+
+.vertical_iphone {
+  position: absolute;
+  top: 53px;
+  left: 112px;
+}
+
+.slider__chevs {
+  position: relative;
+  top: 281px;
+}
+
+.chev {
+  display: inline-block;
+  width: 16px;
+  height: 27px;
+}
+
+.left_chev {
+  position: absolute;
+  transform: rotate(180deg);
+  left: 2px;
+}
+
+.right_chev {
+  position: absolute;
+  right: 0;
+}
+
+.link-colored {
+  color: white;
+}
+
+a:hover {
   color: #f06c64;
 }
 

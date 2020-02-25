@@ -11,18 +11,20 @@
 <body>
 <header>
   <div class="wrapper">
-    <div class="header__logo">
-      <h1 class="text-white">SINGOLO<span class="text-colored">*</span></h1>
+    <div class="content layout_2_col">
+      <div class="header__logo">
+        <h1 class="logo">SINGOLO<span class="logo-tail">*</span></h1>
+      </div>
+      <nav class="navigation__container">
+        <ul class="navigation__menu">
+          <li class="first-elem"><a class="navigation_link link-colored" href="#">HOME</a></li>
+          <li><a class="navigation_link link-colored" href="#">SERVICES</a></li>
+          <li><a class="navigation_link link-colored" href="#">PORTFOLIO</a></li>
+          <li><a class="navigation_link link-colored" href="#">ABOUT</a></li>
+          <li><a class="navigation_link link-colored" href="#">CONTACT</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="navigation__container">
-      <ul class="navigation__menu">
-        <li><a class="navigation_link text-colored" href="#">HOME</a></li>
-        <li><a class="navigation_link text-white" href="#">SERVICES</a></li>
-        <li><a class="navigation_link text-white" href="#">PORTFOLIO</a></li>
-        <li><a class="navigation_link text-white" href="#">ABOUT</a></li>
-        <li><a class="navigation_link text-white" href="#">CONTACT</a></li>
-      </ul>
-    </nav>
   </div>
 </header>
 <main>
@@ -43,90 +45,91 @@
         </div>
       </div>
     </section>
-    <section class="services">
-      <h2>Our Services</h2>
-      <p class="services_paragraph">
-        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
-        Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
-      </p>
-      <div class="container layout_3_columns">
-        <div class="service pen__service">
-          <div class="service_logo">
-            <img class="service_image pen" src="assets/Pen.png" alt="pen" height="59" width="59"/>
-          </div>
-          <div class="service_description">
-            <h3>Custom Design</h3>
-            <p>
-              Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
-              laoreet, viverra lacus ut, ultrices velit.
-            </p>
-          </div>
-        </div>
-        <div class="service bulb__service">
-          <div class="service_logo">
-            <img class="service_image bulb" src="assets/Bulb.png" alt="bulb" height="59" width="59"/>
-          </div>
-          <div class="service_description">
-            <h3>Inovative Ideas</h3>
-            <p>
-              Quisque luctus, quam eget molestie commodo, lacus purus cursus purus,
-              nec rutrum tellus dolor id lorem.
-            </p>
-          </div>
-        </div>
-        <div class="service heart__service">
-          <div class="service_logo">
-            <img class="service_image heart" src="assets/Heart.png" alt="heart" height="59" width="59"/>
-          </div>
-          <div class="service_description">
-            <h3>Love Is The Answer</h3>
-            <p>
-              Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
-              et consequat felis. Quisque condimentum.
-            </p>
-          </div>
-        </div>
-        <div class="service phone__service">
-          <div class="service_logo">
-            <img class="service_image phone" src="assets/Phone.png" alt="ellipse" height="59" width="59">
-          </div>
-          <div class="service_description">
-            <h3>Responsive Layout</h3>
-            <p>
-              Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent
-              elit
-              leo.
-            </p>
-          </div>
-        </div>
-        <div class="service bubble__service">
-          <div class="service_logo">
-            <img class="service_image bubble" src="assets/Bubble.png" alt="bubble" height="59" width="59"/>
-          </div>
-          <div class="service_description">
-            <h3>24 / 7 Support</h3>
-            <p>
-              Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat.
-              Pellentesque egestas venenatis lorem .
-            </p>
-          </div>
-        </div>
-        <div class="service star__service">
-          <div class="service_logo">
-            <img class="service_image star" src="assets/Star.png" alt="start" height="59" width="59"/>
-          </div>
-          <div class="service_description">
-            <h3>Feel Like A Star</h3>
-            <p>
-              Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
-              Fusce vitae aliquam tellus.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </main>
+
+<section class="services">
+  <div class="wrapper">
+    <h2>Our Services</h2>
+    <p class="services_paragraph">
+      Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+    </p>
+    <div class="container layout_3_columns">
+      <div class="service pen__service">
+        <div class="service_logo">
+          <img class="service_image pen" src="assets/Pen.png" alt="pen" height="59" width="59"/>
+        </div>
+        <div class="service_description">
+          <h3>Custom Design</h3>
+          <p>
+            Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
+            laoreet, viverra lacus ut, ultrices velit.
+          </p>
+        </div>
+      </div>
+      <div class="service bulb__service">
+        <div class="service_logo">
+          <img class="service_image bulb" src="assets/Bulb.png" alt="bulb" height="59" width="59"/>
+        </div>
+        <div class="service_description">
+          <h3>Inovative Ideas</h3>
+          <p>
+            Quisque luctus, quam eget molestie commodo, lacus purus cursus purus,
+            nec rutrum tellus dolor id lorem.
+          </p>
+        </div>
+      </div>
+      <div class="service heart__service">
+        <div class="service_logo">
+          <img class="service_image heart" src="assets/Heart.png" alt="heart" height="59" width="59"/>
+        </div>
+        <div class="service_description">
+          <h3>Love Is The Answer</h3>
+          <p>
+            Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
+            et consequat felis. Quisque condimentum.
+          </p>
+        </div>
+      </div>
+      <div class="service phone__service">
+        <div class="service_logo">
+          <img class="service_image phone" src="assets/Phone.png" alt="ellipse" height="59" width="59">
+        </div>
+        <div class="service_description">
+          <h3>Responsive Layout</h3>
+          <p>
+            Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent
+            elit
+            leo.
+          </p>
+        </div>
+      </div>
+      <div class="service bubble__service">
+        <div class="service_logo">
+          <img class="service_image bubble" src="assets/Bubble.png" alt="bubble" height="59" width="59"/>
+        </div>
+        <div class="service_description">
+          <h3>24 / 7 Support</h3>
+          <p>
+            Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat.
+            Pellentesque egestas venenatis lorem .
+          </p>
+        </div>
+      </div>
+      <div class="service star__service">
+        <div class="service_logo">
+          <img class="service_image star" src="assets/Star.png" alt="start" height="59" width="59"/>
+        </div>
+        <div class="service_description">
+          <h3>Feel Like A Star</h3>
+          <p>
+            Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
+            Fusce vitae aliquam tellus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </body>
 </html>
