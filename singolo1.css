@@ -11,8 +11,8 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1020px;
-  padding-left: 38px;
-  padding-right: 38px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 header .wrapper {
@@ -34,11 +34,11 @@ section .wrapper {
 }
 
 .layout_3_columns {
-  margin-top: 47px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 21px;
   grid-row-gap: 33px;
+  margin-top: 47px;
 }
 
 .service {
@@ -60,24 +60,26 @@ h2 {
 }
 
 h3 {
+  margin-top: -11px;
+  padding-bottom: 11px;
   font-size: 18px;
   line-height: 15px;
   font-weight: 900;
+  letter-spacing: -0.003rem;
   color: #666d89;
 }
 
 .service_description {
+  padding-top: 11px;
   padding-left: 4px;
 }
 
 .service_description p {
-  padding-top: 11px;
-  padding-left: 1px;
   font-size: 12px;
   line-height: 21px;
   font-weight: 400;
-  color: #767e9e;
   text-align: justify;
+  color: #767e9e;
 }
 
 .services_paragraph {
@@ -85,17 +87,18 @@ h3 {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.7;
+  text-align: justify;
+  letter-spacing: -0.013rem;
   color: #767e9e;
-  text-align: left;
 }
 
 .layout_2_col {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
   justify-content: space-between;
-  height: 100%;
   justify-items: end;
+  height: 100%;
+  align-items: center;;
 }
 
 .header__logo {
@@ -103,10 +106,10 @@ h3 {
 }
 
 .navigation__menu {
-  padding-top: 2px;
-  justify-items: right;
-  margin-top: 6px;
   display: flex;
+  justify-items: right;
+  padding-top: 2px;
+  margin-top: 6px;
 }
 
 .navigation__menu li {
@@ -114,12 +117,12 @@ h3 {
 }
 
 .navigation__menu li:before {
-  content: '\2022';
-  transform:scale(0.1);
-  vertical-align: middle;
   display: inline-block;
-  color: #7e829e;
   padding: 0 10px;
+  content: '\2022';
+  transform: scale(0.1);
+  vertical-align: middle;
+  color: #7e829e;
 }
 
 .navigation__menu li:first-child:before {
@@ -127,9 +130,9 @@ h3 {
 }
 
 .navigation__menu li a {
-  text-decoration: none;
   font-size: 12px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .logo {
@@ -169,8 +172,8 @@ main .wrapper {
 
 .left_chev {
   position: absolute;
-  transform: rotate(180deg);
   left: 2px;
+  transform: rotate(180deg);
 }
 
 .right_chev {
