@@ -163,3 +163,14 @@ h3 {
 .contact {
   margin-right: 8px;
 }
+
+a {
+  color: #666d89;
+  text-decoration:none;
+}
+
+li:hover,
+a:hover {
+  color: white;
+  border-color: white;
+}
