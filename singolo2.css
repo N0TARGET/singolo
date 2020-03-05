@@ -12,21 +12,21 @@
 }
 
 .top .wrapper {
-  background-color: #2d303a;
-  border-bottom: 6px solid #323746;
   padding-bottom: 47px;
+  border-bottom: 6px solid #323746;
+  background-color: #2d303a;
 }
 
 .bottom .wrapper {
   padding-top: 69px;
-  background-color: #f2f2f2;
-  border-bottom: 6px solid #ffffff;
   padding-bottom: 63px;
+  border-bottom: 6px solid #ffffff;
+  background-color: #f2f2f2;
 }
 
 h1 {
-  display: inline-block;
   margin-top: 70px;
+  display: inline-block;
   font-family: "Lato Black", Verdana, sans-serif;
   font-size: 30px;
   line-height: 17.86px;
@@ -38,8 +38,8 @@ header p {
   font-family: "Lato Light", Verdana, sans-serif;
   font-size: 18px;
   line-height: 30px;
-  color: #666d89;
   letter-spacing: -0.013rem;
+  color: #666d89;
 }
 
 ul {
@@ -71,12 +71,12 @@ h2 {
 
 .about-us p {
   margin-top: 27px;
-  color: #767e9e;
   font-family: "Lato Light", Verdana, sans-serif;
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
   letter-spacing: -0.013rem;
+  color: #767e9e;
 }
 
 h3 {
@@ -127,8 +127,8 @@ h3 {
 
 .person-info p {
   margin-top: 2px;
-  text-align: justify;
   padding-top: 8px;
+  text-align: justify;
   letter-spacing: -0.004rem;
 }
 
@@ -142,7 +142,7 @@ h3 {
 
 a {
   color: #666d89;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 li:hover,
