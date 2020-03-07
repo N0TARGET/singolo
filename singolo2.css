@@ -57,7 +57,7 @@ li {
   border-radius: 5px;
 }
 
-.menu-item {
+.filter__item {
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -69,7 +69,7 @@ h2 {
   line-height: 17.86px;
 }
 
-.about-us p {
+.about-us__details {
   margin-top: 27px;
   font-family: "Lato Light", Verdana, sans-serif;
   font-size: 18px;
@@ -85,59 +85,53 @@ h3 {
   line-height: 17.86px;
 }
 
-.person-info p {
+.person__description {
   font-family: "Lato Regular", Verdana, sans-serif;
   font-size: 12px;
   line-height: 21.56px;
 }
 
-.pictures-container {
+.pictures {
   margin-top: 19px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.picture {
+.pictures__item {
   margin-bottom: 16px;
 }
 
-.contact {
+.contacts__item {
   display: inline-block;
+  margin-right: 8px;
 }
 
-.contacts-container {
-  display: flex;
-}
-
-.persons-container {
+.persons {
   margin-top: 45px;
   display: flex;
   justify-content: space-between;
+}
+
+.person__contacts {
+  display: flex;
+  padding-top: 24px;
 }
 
 .person {
   width: 300px;
 }
 
-.person-info {
+.person__info {
   padding-top: 14px;
   color: #666d89;
 }
 
-.person-info p {
+.person__description {
   margin-top: 2px;
   padding-top: 8px;
   text-align: justify;
   letter-spacing: -0.004rem;
-}
-
-.contacts-container {
-  padding-top: 24px;
-}
-
-.contact {
-  margin-right: 8px;
 }
 
 a {
@@ -149,4 +143,8 @@ li:hover,
 a:hover {
   color: white;
   border-color: white;
+}
+
+.pictures__item:nth-child(n+13) {
+  display: none;
 }
