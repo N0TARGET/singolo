@@ -11,13 +11,13 @@
   padding-right: 40px;
 }
 
-.top .wrapper {
+.portfolio-section .wrapper {
   padding-bottom: 47px;
   border-bottom: 6px solid #323746;
   background-color: #2d303a;
 }
 
-.bottom .wrapper {
+.about-us-section .wrapper {
   padding-top: 69px;
   padding-bottom: 63px;
   border-bottom: 6px solid #ffffff;
@@ -33,7 +33,7 @@ h1 {
   color: #666d89;
 }
 
-header p {
+.portfolio p {
   margin-top: 20px;
   font-family: "Lato Light", Verdana, sans-serif;
   font-size: 18px;
