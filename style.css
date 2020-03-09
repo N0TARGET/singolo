@@ -487,3 +487,7 @@ a:hover {
   line-height: 2;
   color: #f48c8f;
 }
+
+.copy-colored:hover {
+  color: cornflowerblue;
+}
