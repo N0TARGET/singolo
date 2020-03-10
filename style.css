@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-body {
-  font-family: 'Lato', Verdana, sans-serif;
-}
-
 .wrapper {
   box-sizing: border-box;
   margin: 0 auto;
@@ -23,7 +19,7 @@ header .wrapper {
 }
 
 .slider .wrapper {
-  padding-bottom: 564px;
+  padding-bottom: 563px;
   position: relative;
   background-color: #f06c64;
   border-bottom: 6px #ea676b solid;
@@ -49,6 +45,7 @@ header .wrapper {
 }
 
 .logo {
+  font-family: 'Lato Regular', Verdana, sans-serif;
   font-size: 25px;
   font-weight: 500;
 }
@@ -61,6 +58,7 @@ header .wrapper {
 .our-services_title,
 .about-us__title,
 .quote__title {
+  font-family: 'Lato Black', Verdana, sans-serif;
   padding-top: 68px;
   font-size: 30px;
   font-weight: 900;
@@ -80,6 +78,7 @@ header .wrapper {
 }
 
 .service_description {
+  font-family: 'Lato', Verdana, sans-serif;
   padding-top: 11px;
   padding-left: 4px;
 }
@@ -93,6 +92,7 @@ header .wrapper {
 }
 
 .services_paragraph {
+  font-family: 'Lato', Verdana, sans-serif;
   padding-top: 27px;
   font-size: 18px;
   font-weight: 300;
@@ -120,6 +120,7 @@ header .wrapper {
   justify-items: right;
   padding-top: 2px;
   margin-top: 6px;
+  font-family: 'Lato Black', Verdana, sans-serif;
 }
 
 .navigation__menu li {
@@ -200,13 +201,13 @@ a:hover {
 }
 
 .portfolio-section .wrapper {
-  padding-bottom: 49px;
+  padding-bottom: 46px;
   border-bottom: 6px solid #323746;
   background-color: #2d303a;
 }
 
 .about-us-section .wrapper {
-  padding-bottom: 65px;
+  padding-bottom: 63px;
   border-bottom: 6px solid #ffffff;
   background-color: #f2f2f2;
 }
@@ -288,7 +289,7 @@ a:hover {
   line-height: 21.56px;
 }
 
-.contacts__item {
+.socials__item {
   display: inline-block;
   margin-right: 8px;
 }
@@ -299,8 +300,7 @@ a:hover {
   justify-content: space-between;
 }
 
-.person__contacts {
-  display: flex;
+.person__socials {
   padding-top: 24px;
 }
 
@@ -336,7 +336,7 @@ a:hover {
 }
 
 .wrapper-quote {
-  padding-bottom: 40px;
+  padding-bottom: 42px;
   background-color: #f06c64;
   border-bottom: 6px solid #ea676b;
 }
@@ -443,10 +443,6 @@ a:hover {
   padding-top: 2px;
 }
 
-.socials {
-  display: flex;
-}
-
 .contact-information__contacts a:link {
   color: #f0d8d9;
   text-decoration: none;
@@ -472,11 +468,8 @@ a:hover {
 }
 
 .socials {
+  display: flex;
   padding-top: 22px;
-}
-
-.socials__item {
-  padding-left: 8px;
 }
 
 .quote__submit {
