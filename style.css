@@ -16,20 +16,21 @@ body {
 }
 
 header .wrapper {
-  height: 95px;
+  padding-top: 30px;
+  padding-bottom: 29px;
   background-color: #2d303a;
   border-bottom: 6px #323746 solid;
 }
 
 .slider .wrapper {
+  padding-bottom: 564px;
   position: relative;
-  height: 600px;
   background-color: #f06c64;
   border-bottom: 6px #ea676b solid;
 }
 
 .services .wrapper {
-  height: 500px;
+  padding-bottom: 63px;
   background-color: #f2f2f2;
   border-bottom: 6px #ffffff solid;
 }
@@ -47,12 +48,19 @@ header .wrapper {
   grid-template-columns: 25fr 75fr;
 }
 
-h1 {
+.logo {
   font-size: 25px;
   font-weight: 500;
 }
 
-h2 {
+.portfolio__title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.our-services_title,
+.about-us__title,
+.quote__title {
   padding-top: 68px;
   font-size: 30px;
   font-weight: 900;
@@ -60,7 +68,8 @@ h2 {
   color: #666d89;
 }
 
-h3 {
+.service_description h3,
+.person__name {
   margin-top: -11px;
   padding-bottom: 11px;
   font-size: 18px;
