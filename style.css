@@ -1,9 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
+  position: relative;
+  top: 95px;
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1020px;
@@ -12,8 +15,16 @@
 }
 
 header .wrapper {
+  position:fixed;
+  top: 0;
+  left:0;
+  right:0;
+  z-index: 1;
+  margin-left:auto;
+  margin-right:auto;
   padding-top: 30px;
   padding-bottom: 29px;
+  max-width: 1020px;
   background-color: #2d303a;
   border-bottom: 6px #323746 solid;
 }
@@ -192,10 +203,6 @@ main .wrapper {
 
 .link-colored {
   color: white;
-}
-
-a:hover {
-  color: #f06c64;
 }
 
 .chev:hover {
