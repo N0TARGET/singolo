@@ -6,7 +6,6 @@
 
 .wrapper {
   position: relative;
-  top: 95px;
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1020px;
@@ -27,6 +26,10 @@ header .wrapper {
   max-width: 1020px;
   background-color: #2d303a;
   border-bottom: 6px #323746 solid;
+}
+
+#slider .wrapper {
+  margin-top: 95px;
 }
 
 main .wrapper {

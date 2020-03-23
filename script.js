@@ -4,11 +4,11 @@ const COLOR_ORANGE = '#f06c64';
 let coloredLinks = document.querySelectorAll('.link-colored');
 let pageSections = Array.from(document.getElementsByClassName("page-section"));
 
-highlightMenu();
+addEventListener('DOMContentLoaded', highlightMenu);
 addEventListener('scroll', highlightMenu);
 
 function clearColor(coloredLinks, color) {
-  for (let i = 0; i < COLOR_WHITE.length; i++) {
+  for (let i = 0; i < coloredLinks.length; i++) {
     coloredLinks[i].style.color = color;
   }
 }
